@@ -20,7 +20,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                          KC_LALT, KC_SPC,                        KC_ENT , RAISE ,
                                          DE_HASH,KC_ALGR,                        KC_BSPC,KC_LGUI,
                                          LOWER  ,_______,                        KC_DEL ,_______
-    ),
+   ),
 
     [_LOWER] = LAYOUT_5x6(
         _______,_______,_______,_______,_______,_______,                        _______,_______,_______,_______,_______,_______,
