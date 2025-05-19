@@ -16,10 +16,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB , DE_Q  , DE_W  , DE_E  , DE_R  , DE_T  ,                         DE_Z  , DE_U  , DE_I  , DE_O  , DE_P  ,DE_UDIA,
         KC_LSFT, DE_A  , DE_S  , DE_D  , DE_F  , DE_G  ,                         DE_H  , DE_J  , DE_K  , DE_L  ,DE_ODIA,DE_ADIA,
         ESC_CTL, DE_Y  , DE_X  , DE_C  , DE_V  , DE_B  ,                         DE_N  , DE_M  ,DE_COMM,DE_DOT ,DE_MINS,DE_PLUS,
-                        DE_LABK, LOWER ,                                                        DE_RABK,DE_RBRC,
+                        DE_LABK, LOWER ,                                                        DE_RABK,DE_ACUT,
                                          KC_LALT, KC_SPC,                        KC_ENT , RAISE ,
-                                         DE_HASH,KC_ALGR,                        KC_BSPC,KC_LGUI,
-                                         LOWER  ,_______,                        KC_DEL ,_______
+                                         DE_HASH,KC_ALGR,                        KC_BSPC,KC_RGUI,
+                                         LOWER  ,KC_LGUI,                        KC_DEL ,KC_RSFT
    ),
 
     [_LOWER] = LAYOUT_5x6(
