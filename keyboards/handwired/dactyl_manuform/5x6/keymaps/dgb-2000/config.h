@@ -22,5 +22,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define EE_HANDS
 #define SPLIT_USB_DETECT
 
-// The “permissive hold” mode, in addition to the default behavior, immediately selects the hold action when another key is tapped (pressed and then released) while the dual-role key is held down, even if this happens earlier than the tapping term. If another key is just pressed, but then the dual-role key is released before that other key (and earlier than the tapping term), this mode will still select the tap action.
+// Prefer hold when rolling into another key
 #define PERMISSIVE_HOLD
+
+// Enable per-key tapping term tuning for mod-tap keys.
+#define TAPPING_TERM 200
+#define TAPPING_TERM_PER_KEY
